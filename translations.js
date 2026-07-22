@@ -78,7 +78,8 @@ var TRANSLATIONS = {
     advancedExcel: { en: `Advanced Excel`, he: `Excel מתקדם` },
     crmErp: { en: `CRM/ERP Systems`, he: `מערכות CRM/ERP` },
     illustrationTitle: { en: `Illustration`, he: `איור` },
-    handDrawnIllustration: { en: `Hand-Drawn Illustration`, he: `איור ידני` }
+    handDrawnIllustration: { en: `Hand-Drawn Illustration`, he: `איור ידני` },
+    digitalIllustration: { en: `Digital Illustration`, he: `איור דיגיטלי` }
   },
 
   contact: {
@@ -119,7 +120,8 @@ var TRANSLATIONS = {
     packagingTitle: { en: `Packaging & Product Range`, he: `אריזה וקו מוצרים` },
     packagingText: { en: `Three product lines — Nest, Root, and Bloom — each with its own color story: Nest ("relax your body, reset your mind"), Root ("sharpen your focus, anchor your energy"), and Bloom ("awaken your senses, brighten your day").`,
                      he: `שלושה קווי מוצרים – Nest, Root ו-Bloom – כל אחד עם סיפור הצבע שלו: Nest ("הרגיעו את הגוף, אפסו את המחשבה"), Root ("חדדו את המיקוד, עגנו את האנרגיה"), ו-Bloom ("העירו את החושים, האירו את היום").` },
-    socialWebsiteTitle: { en: `Social & Website`, he: `סושיאל ואתר` }
+    socialWebsiteTitle: { en: `Social & Website`, he: `סושיאל ואתר` },
+    animationsTitle: { en: `Animations`, he: `אנימציות` }
   },
 
   zeroControl: {
