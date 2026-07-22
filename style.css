@@ -970,3 +970,50 @@ footer {
   font-weight: 500;
   user-select: none;
 }
+
+/* ==========================================================================
+   Language toggle
+   ========================================================================== */
+
+.lang-toggle {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  background: none;
+  border: 1px solid rgba(43, 43, 46, 0.15);
+  border-radius: 999px;
+  padding: 5px 14px;
+  cursor: pointer;
+  transition: opacity 0.2s ease, background 0.2s ease;
+}
+
+.lang-toggle:hover {
+  opacity: 0.7;
+  background: rgba(43, 43, 46, 0.05);
+}
+
+/* ==========================================================================
+   RTL (Hebrew) layout
+   ========================================================================== */
+
+/* Order-preserving containers: keep the current left-to-right image sequence
+   even though the page direction is RTL. */
+[dir="rtl"] .media-placeholder-row,
+[dir="rtl"] .trio-row,
+[dir="rtl"] .hero-poster-row,
+[dir="rtl"] .collection-grid {
+  direction: ltr;
+}
+
+[dir="rtl"] .project-grid,
+[dir="rtl"] .app-showcase-row,
+[dir="rtl"] .collection-row {
+  direction: ltr;
+}
+
+[dir="rtl"] .project-grid > *,
+[dir="rtl"] .app-showcase-row > *,
+[dir="rtl"] .collection-row > * {
+  direction: rtl;
+}
