@@ -385,7 +385,7 @@ img {
 
 .skills-columns {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
 }
 
@@ -474,6 +474,16 @@ img {
   object-fit: cover;
 }
 
+.cs-video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 18px;
+  border: var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  background: #000000;
+}
+
 .cs-image-rotate-wrap {
   width: 100%;
   aspect-ratio: 4 / 3;
@@ -502,6 +512,14 @@ img {
 
 .cs-image-contain-wrap.ratio-4-3 {
   aspect-ratio: 4 / 3;
+}
+
+.cs-image-contain-wrap.ratio-16-9 {
+  aspect-ratio: 16 / 9;
+}
+
+.cs-image-contain-wrap.ratio-3-4 {
+  aspect-ratio: 3 / 4;
 }
 
 .cs-image-contain-wrap img {
