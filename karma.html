@@ -2,55 +2,65 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<script>(function(){var l=localStorage.getItem('siteLang');if(l==='he'){document.documentElement.lang='he';document.documentElement.dir='rtl';}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Karma | Shaked Cohen</title>
 <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body data-i18n-page="karma">
 
 <!-- ========== NAV ========== -->
 <nav class="navbar">
-  <a href="index.html" class="nav-logo">Shaked Cohen</a>
+  <a href="index.html" class="nav-logo" data-i18n="nav.logo">Shaked Cohen</a>
   <ul class="nav-links">
-    <li><a href="orca.html">Orca</a></li>
-    <li><a href="anila.html">Anila</a></li>
-    <li><a href="zero-control.html">Zero Control</a></li>
-    <li><a href="rami-fortis.html">Rami Fortis</a></li>
-    <li><a href="karma.html" class="active">Karma</a></li>
-    <li><a href="about.html" class="nav-static">About</a></li>
-    <li><a href="contact.html" class="nav-static">Contact</a></li>
+    <li><a href="orca.html" data-i18n="nav.orca">Orca</a></li>
+    <li><a href="anila.html" data-i18n="nav.anila">Anila</a></li>
+    <li><a href="zero-control.html" data-i18n="nav.zeroControl">Zero Control</a></li>
+    <li><a href="rami-fortis.html" data-i18n="nav.ramiFortis">Rami Fortis</a></li>
+    <li><a href="karma.html" class="active" data-i18n="nav.karma">Karma</a></li>
+    <li><a href="about.html" class="nav-static" data-i18n="nav.about">About</a></li>
+    <li><a href="contact.html" class="nav-static" data-i18n="nav.contact">Contact</a></li>
+    <li><button class="lang-toggle" type="button">עברית</button></li>
   </ul>
 </nav>
 
 <!-- ========== HERO ========== -->
 <header class="cs-hero">
-  <a href="index.html" class="back-link">&larr; Back to home</a>
+  <a href="index.html" class="back-link" data-i18n="shared.backLink">&larr; Back to home</a>
   <div class="cs-hero-title-row">
     <img class="cs-hero-logo" src="karma/karma-logo.png" alt="Karma logo" />
-    <h1>Karma</h1>
+    <h1 data-i18n="nav.karma">Karma</h1>
   </div>
-  <p class="cs-tagline">Creating Flavors &mdash; a home-style food brand built on tradition and warmth.</p>
+  <p class="cs-tagline" data-i18n="karma.heroTagline">Creating Flavors &mdash; a home-style food brand built on tradition and warmth.</p>
 </header>
+
+<!-- ========== ABOUT THE BUSINESS ========== -->
+<section class="cs-section">
+  <h2 class="cs-section-title" data-i18n="karma.aboutBusinessTitle">About the Business</h2>
+  <div class="text-block">
+    <p data-i18n="karma.aboutBusinessText">An experiential space where groups can rent a private kitchen for shared cooking &mdash; in a light, free-spirited, and connecting atmosphere. The space also hosts a variety of cooking workshops, spanning both global cuisines and rooted, traditional recipes.</p>
+  </div>
+</section>
 
 <!-- ========== CHALLENGE & SOLUTION ========== -->
 <section class="cs-section">
   <div class="challenge-solution">
     <div>
-      <h4>The Challenge</h4>
-      <p>Creating a new food brand that conveys a precise blend of tradition, home-style comfort, and premium quality. The task was to develop a brand language that feels authentic, warm, and inviting, while creating differentiation in a competitive market.</p>
+      <h4 data-i18n="shared.challengeHeading">The Challenge</h4>
+      <p data-i18n="karma.challengeText">Creating a new food brand that conveys a precise blend of tradition, home-style comfort, and premium quality. The task was to develop a brand language that feels authentic, warm, and inviting, while creating differentiation in a competitive market.</p>
     </div>
     <div>
-      <h4>The Solution</h4>
-      <p>A visual language inspired by the worlds of home and food. The logo was designed by modifying and combining classic fonts (Dida and Levi) to create a unique, bold typography. The branding incorporates warm lifestyle photography and a clean style, emphasizing the brand's core values: creating together, high-quality raw materials, and a communal culinary experience.</p>
+      <h4 data-i18n="shared.solutionHeading">The Solution</h4>
+      <p data-i18n="karma.solutionText">A visual language inspired by the worlds of home and food. The logo was designed by modifying and combining classic fonts (Dida and Levi) to create a unique, bold typography. The branding incorporates warm lifestyle photography and a clean style, emphasizing the brand's core values: creating together, high-quality raw materials, and a communal culinary experience.</p>
     </div>
   </div>
 </section>
 
 <!-- ========== LOGO ========== -->
 <section class="cs-section">
-  <h2 class="cs-section-title">Logo Design</h2>
+  <h2 class="cs-section-title" data-i18n="karma.logoTitle">Logo Design</h2>
   <div class="text-block" style="margin-bottom: 24px;">
-    <p>The logo evolved from a hand-sketched grape-goddess motif into a refined, minimal mark, with typography built by combining and modifying the Dida and Levi typefaces.</p>
+    <p data-i18n="karma.logoText">The logo evolved from a hand-sketched grape-goddess motif into a refined, minimal mark, with typography built by combining and modifying the Dida and Levi typefaces.</p>
   </div>
   <div class="media-placeholder-row">
     <img class="cs-image ratio-4-3 project-img" src="karma/karma-logo-typography.png" alt="Karma logo typography" />
@@ -60,7 +70,7 @@
 
 <!-- ========== PACKAGING ========== -->
 <section class="cs-section">
-  <h2 class="cs-section-title">Packaging</h2>
+  <h2 class="cs-section-title" data-i18n="karma.packagingTitle">Packaging</h2>
   <div class="media-placeholder-row">
     <img class="cs-image ratio-4-3 project-img" src="karma/karma-flour-packaging.png" alt="Karma flour packaging range" />
     <div class="cs-image-zoom-wrap ratio-4-3">
@@ -75,39 +85,41 @@
 
 <!-- ========== LIFESTYLE ========== -->
 <section class="cs-section">
-  <h2 class="cs-section-title">Brand in Life</h2>
+  <h2 class="cs-section-title" data-i18n="karma.brandInLifeTitle">Brand in Life</h2>
   <img class="cs-image project-img" src="karma/karma-lifestyle.png" alt="Karma lifestyle photography — branded aprons" />
 </section>
 
 <!-- ========== MORE PROJECTS ========== -->
 <section class="cs-section">
-  <h2 class="cs-section-title">More Projects</h2>
+  <h2 class="cs-section-title" data-i18n="shared.moreProjects">More Projects</h2>
   <div class="project-grid" style="grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));">
     <a href="orca.html" class="glass more-project-card">
       <img src="orca/orca-hero.png" alt="Orca" />
-      <div class="more-project-name">Orca</div>
+      <div class="more-project-name" data-i18n="nav.orca">Orca</div>
     </a>
     <a href="anila.html" class="glass more-project-card">
       <img src="anila/thumbnail-anila.png" alt="Anila" />
-      <div class="more-project-name">Anila</div>
+      <div class="more-project-name" data-i18n="nav.anila">Anila</div>
     </a>
     <a href="zero-control.html" class="glass more-project-card">
       <img src="zero-control/thumb-zero-control.png" alt="Zero Control" />
-      <div class="more-project-name">Zero Control</div>
+      <div class="more-project-name" data-i18n="nav.zeroControl">Zero Control</div>
     </a>
   </div>
 </section>
 
 <!-- ========== FOOTER ========== -->
 <footer>
-  <div class="footer-title">Shaked Cohen — Brand &amp; Visual Experience Designer</div>
+  <div class="footer-title" data-i18n="footer.title">Shaked Cohen — Brand &amp; Visual Experience Designer</div>
   <nav class="footer-nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="about.html" data-i18n="footer.about">About</a>
+    <a href="contact.html" data-i18n="footer.contact">Contact</a>
   </nav>
 </footer>
 
+<script src="translations.js"></script>
+<script src="i18n.js" defer></script>
 <script src="script.js" defer></script>
 </body>
 </html>
