@@ -2,36 +2,38 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<script>(function(){var l=localStorage.getItem('siteLang');if(l==='he'){document.documentElement.lang='he';document.documentElement.dir='rtl';}})();</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Shaked Cohen | Brand &amp; Visual Experience Designer</title>
 <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body data-i18n-page="index">
 
 <!-- ========== NAV ========== -->
 <nav class="navbar">
-  <a href="index.html" class="nav-logo">Shaked Cohen</a>
+  <a href="index.html" class="nav-logo" data-i18n="nav.logo">Shaked Cohen</a>
   <ul class="nav-links">
-    <li><a href="orca.html">Orca</a></li>
-    <li><a href="anila.html">Anila</a></li>
-    <li><a href="zero-control.html">Zero Control</a></li>
-    <li><a href="rami-fortis.html">Rami Fortis</a></li>
-    <li><a href="karma.html">Karma</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="contact.html">Contact</a></li>
+    <li><a href="orca.html" data-i18n="nav.orca">Orca</a></li>
+    <li><a href="anila.html" data-i18n="nav.anila">Anila</a></li>
+    <li><a href="zero-control.html" data-i18n="nav.zeroControl">Zero Control</a></li>
+    <li><a href="rami-fortis.html" data-i18n="nav.ramiFortis">Rami Fortis</a></li>
+    <li><a href="karma.html" data-i18n="nav.karma">Karma</a></li>
+    <li><a href="about.html" class="nav-static" data-i18n="nav.about">About</a></li>
+    <li><a href="contact.html" class="nav-static" data-i18n="nav.contact">Contact</a></li>
+    <li><button class="lang-toggle" type="button">עברית</button></li>
   </ul>
 </nav>
 
 <!-- ========== HERO ========== -->
 <header class="hero">
-  <p class="hero-eyebrow">Portfolio</p>
-  <h1>Shaked Cohen</h1>
-  <p class="tagline">Brand &amp; Visual Experience Designer. I give brands life by connecting strategic thinking with creativity.</p>
+  <p class="hero-eyebrow" data-i18n="index.heroEyebrow">Portfolio</p>
+  <h1 data-i18n="index.heroTitle">Shaked Cohen</h1>
+  <p class="tagline" data-i18n="index.heroTagline">Brand &amp; Visual Experience Designer.<br />I give brands life by connecting strategic thinking with creativity.</p>
 </header>
 
 <!-- ========== PROJECTS ========== -->
 <section class="section" id="projects">
-  <h2 class="section-title">Selected Work</h2>
+  <h2 class="section-title" data-i18n="index.sectionTitle">My Projects</h2>
   <div class="project-grid">
 
     <a href="orca.html" class="glass project-card">
@@ -39,12 +41,12 @@
         <img src="orca/orca-hero.png" alt="Orca — Beyond Words" />
       </div>
       <div class="project-card-body">
-        <h3>Orca — Beyond Words</h3>
-        <p class="project-tagline">A documentary awareness campaign giving voice to invisible violence in early childhood.</p>
+        <h3 data-i18n="orca.pageHeading">Orca — Beyond Words</h3>
+        <p class="project-tagline" data-i18n="index.orcaTagline">A documentary awareness campaign giving voice to invisible violence in early childhood.</p>
         <div class="tag-pills">
-          <span>Brand Identity</span>
-          <span>Campaign</span>
-          <span>Social Impact</span>
+          <span data-i18n="tags.brandIdentity">Brand Identity</span>
+          <span data-i18n="tags.campaign">Campaign</span>
+          <span data-i18n="tags.socialImpact">Social Impact</span>
         </div>
       </div>
     </a>
@@ -54,12 +56,12 @@
         <img src="anila/thumbnail-anila.png" alt="Anila — Tradition Refined" />
       </div>
       <div class="project-card-body">
-        <h3>Anila — Tradition Refined</h3>
-        <p class="project-tagline">Holistic wellness branding rooted in ancient tradition, from logo to packaging to storefront.</p>
+        <h3 data-i18n="anila.pageHeading">Anila — Tradition Refined</h3>
+        <p class="project-tagline" data-i18n="index.anilaTagline">Holistic wellness branding rooted in ancient tradition, from logo to packaging to storefront.</p>
         <div class="tag-pills">
-          <span>Branding</span>
-          <span>Packaging</span>
-          <span>Web Design</span>
+          <span data-i18n="tags.branding">Branding</span>
+          <span data-i18n="tags.packaging">Packaging</span>
+          <span data-i18n="tags.webDesign">Web Design</span>
         </div>
       </div>
     </a>
@@ -69,12 +71,12 @@
         <img src="zero-control/thumb-zero-control.png" alt="Zero Control" />
       </div>
       <div class="project-card-body">
-        <h3>Zero Control</h3>
-        <p class="project-tagline">A cyberpunk twist on the classic board game, built with AI as a design partner from concept to card.</p>
+        <h3 data-i18n="nav.zeroControl">Zero Control</h3>
+        <p class="project-tagline" data-i18n="index.zeroTagline">A cyberpunk twist on the classic board game, built with AI as a design partner from concept to card.</p>
         <div class="tag-pills">
-          <span>Game Design</span>
-          <span>Packaging</span>
-          <span>App Design</span>
+          <span data-i18n="tags.gameDesign">Game Design</span>
+          <span data-i18n="tags.packaging">Packaging</span>
+          <span data-i18n="tags.appDesign">App Design</span>
         </div>
       </div>
     </a>
@@ -84,27 +86,27 @@
         <img src="rami-fortis/thumbnail-rami-fortis.png" alt="Rami Fortis — Influencer Kit" />
       </div>
       <div class="project-card-body">
-        <h3>Rami Fortis — Influencer Kit</h3>
-        <p class="project-tagline">A bold "Monster Cat" themed kit capturing a musician's wild, iconic energy.</p>
+        <h3 data-i18n="ramiFortis.pageHeading">Rami Fortis — Influencer Kit</h3>
+        <p class="project-tagline" data-i18n="index.ramiTagline">A bold "Monster Cat" themed kit capturing a musician's wild, iconic energy.</p>
         <div class="tag-pills">
-          <span>Personality Branding</span>
-          <span>Packaging</span>
-          <span>Game Design</span>
+          <span data-i18n="tags.personalityBranding">Personality Branding</span>
+          <span data-i18n="tags.packaging">Packaging</span>
+          <span data-i18n="tags.gameDesign">Game Design</span>
         </div>
       </div>
     </a>
 
     <a href="karma.html" class="glass project-card">
       <div class="project-card-media">
-        <img src="karma/thumbnail-karma.png" alt="Karma — יוצרים טעמים" />
+        <img src="karma/thumbnail-karma.png" alt="Karma — Creating Flavors" />
       </div>
       <div class="project-card-body">
-        <h3>Karma — יוצרים טעמים</h3>
-        <p class="project-tagline">A home-style food brand built on tradition, warmth, and a communal culinary experience.</p>
+        <h3 data-i18n="karma.pageHeading">Karma — Creating Flavors</h3>
+        <p class="project-tagline" data-i18n="index.karmaTagline">A home-style food brand built on tradition, warmth, and a communal culinary experience.</p>
         <div class="tag-pills">
-          <span>Branding</span>
-          <span>Packaging</span>
-          <span>Typography</span>
+          <span data-i18n="tags.branding">Branding</span>
+          <span data-i18n="tags.packaging">Packaging</span>
+          <span data-i18n="tags.typography">Typography</span>
         </div>
       </div>
     </a>
@@ -114,13 +116,15 @@
 
 <!-- ========== FOOTER ========== -->
 <footer>
-  <div class="footer-title">Shaked Cohen — Brand &amp; Visual Experience Designer</div>
+  <div class="footer-title" data-i18n="footer.title">Shaked Cohen — Brand &amp; Visual Experience Designer</div>
   <nav class="footer-nav">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
+    <a href="index.html" data-i18n="footer.home">Home</a>
+    <a href="about.html" data-i18n="footer.about">About</a>
+    <a href="contact.html" data-i18n="footer.contact">Contact</a>
   </nav>
 </footer>
 
+<script src="translations.js"></script>
+<script src="i18n.js" defer></script>
 </body>
 </html>
