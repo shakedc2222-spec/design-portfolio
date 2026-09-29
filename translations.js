@@ -87,7 +87,18 @@ var TRANSLATIONS = {
     heroTitle:  { en: `Let's Talk`, he: `בואו נדבר` },
     heroSubtitle: { en: `I look forward to hearing from you and collaborating on future projects.`,
                     he: `אשמח לשמוע מכם ולשתף פעולה בפרויקטים הבאים.` },
-    emailLabel: { en: `Email`, he: `אימייל` }
+    emailLabel: { en: `Email`, he: `אימייל` },
+    introTitle: { en: `Liked what you see?`, he: `אהבתם את מה שראיתם?` },
+    moreWork: { en: `Feel free to explore more of my work on Behance and Instagram:`,
+                he: `מוזמנים להתרשם מעבודות נוספות שלי בביהאנס ובאינסטגרם:` },
+    formTitle: { en: `Ready to start something new? Drop me a message right here and let's make it.`,
+                 he: `מוכנים להתחיל משהו חדש? מוזמנים לכתוב לי כאן ישירות ונצא לדרך.` },
+    formFirstName: { en: `First Name`, he: `שם פרטי` },
+    formLastName: { en: `Last Name`, he: `שם משפחה` },
+    formEmail: { en: `Mail`, he: `אימייל` },
+    formSubject: { en: `Subject (Optional but recommended)`, he: `נושא (לא חובה, אבל מומלץ)` },
+    formMessage: { en: `Message`, he: `הודעה` },
+    formSubmit: { en: `Send me a message`, he: `שליחת הודעה` }
   },
 
   orca: {
