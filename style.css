@@ -988,6 +988,33 @@ img {
   transform: translateY(-2px);
 }
 
+.contact-submit:disabled {
+  opacity: 0.6;
+  cursor: wait;
+  transform: none;
+}
+
+.contact-botcheck {
+  display: none;
+}
+
+.contact-form-status {
+  font-size: 14px;
+  color: var(--ink-soft);
+}
+
+.contact-form-status:empty {
+  display: none;
+}
+
+.contact-form-status.is-success {
+  color: #3d7a4f;
+}
+
+.contact-form-status.is-error {
+  color: #b0453a;
+}
+
 @media (max-width: 800px) {
   .contact-grid {
     grid-template-columns: 1fr;
