@@ -33,16 +33,48 @@
   <p data-i18n="contact.heroSubtitle">I look forward to hearing from you and collaborating on future projects.</p>
 </header>
 
-<!-- ========== CONTACT PANEL ========== -->
-<section class="contact-panel">
-  <p style="font-size: 13px; text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted);" data-i18n="contact.emailLabel">Email</p>
-  <a href="mailto:shakedc2222@gmail.com" class="contact-email">shakedc2222@gmail.com</a>
-  <p class="contact-phone">054-5329079</p>
-  <div class="contact-socials">
-    <a href="https://www.linkedin.com/in/shaked-cohen-18b216247/" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://www.behance.net/7f3796bb" target="_blank" rel="noopener">Behance</a>
-    <a href="https://www.instagram.com/digital_art_by_shaked/" target="_blank" rel="noopener">Instagram</a>
+<!-- ========== CONTACT GRID ========== -->
+<section class="contact-grid">
+  <div class="contact-info">
+    <h2 class="contact-intro-title" data-i18n="contact.introTitle">Liked what you see?</h2>
+    <div class="contact-details">
+      <a href="mailto:shakedc2222@gmail.com" class="contact-email">shakedc2222@gmail.com</a>
+      <a href="tel:+972545329079" class="contact-phone">054-5329079</a>
+    </div>
+    <p class="contact-intro-text" data-i18n="contact.moreWork">Feel free to explore more of my work on Behance and Instagram:</p>
+    <div class="contact-socials">
+      <a href="https://www.linkedin.com/in/shaked-cohen-18b216247/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.behance.net/7f3796bb" target="_blank" rel="noopener">Behance</a>
+      <a href="https://www.instagram.com/digital_art_by_shaked/" target="_blank" rel="noopener">Instagram</a>
+    </div>
   </div>
+
+  <form class="contact-form glass" id="contact-form">
+    <p class="contact-form-title" data-i18n="contact.formTitle">Ready to start something new? Drop me a message right here and let's make it.</p>
+    <div class="contact-form-row">
+      <label>
+        <span data-i18n="contact.formFirstName">First Name</span>
+        <input type="text" name="firstName" required autocomplete="given-name" />
+      </label>
+      <label>
+        <span data-i18n="contact.formLastName">Last Name</span>
+        <input type="text" name="lastName" autocomplete="family-name" />
+      </label>
+    </div>
+    <label>
+      <span data-i18n="contact.formEmail">Mail</span>
+      <input type="email" name="email" required autocomplete="email" />
+    </label>
+    <label>
+      <span data-i18n="contact.formSubject">Subject (Optional but recommended)</span>
+      <input type="text" name="subject" />
+    </label>
+    <label>
+      <span data-i18n="contact.formMessage">Message</span>
+      <textarea name="message" rows="6" required></textarea>
+    </label>
+    <button type="submit" class="contact-submit" data-i18n="contact.formSubmit">Send me a message</button>
+  </form>
 </section>
 
 <!-- ========== FOOTER ========== -->
@@ -57,5 +89,17 @@
 
 <script src="translations.js"></script>
 <script src="i18n.js" defer></script>
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    var f = e.target;
+    var name = (f.firstName.value + ' ' + f.lastName.value).trim();
+    var subject = f.subject.value.trim() || 'Portfolio inquiry from ' + name;
+    var body = f.message.value + '
+
+' + name + ' (' + f.email.value + ')';
+    window.location.href = 'mailto:shakedc2222@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+  });
+</script>
 </body>
 </html>
