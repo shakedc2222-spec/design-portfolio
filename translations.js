@@ -123,6 +123,7 @@ var TRANSLATIONS = {
           <p><strong>הקול שמעבר למילים (כתב יד):</strong> לצד הפירוט הסטרילי והמערכתי, משולבים משפטים בכתב יד שמדמים את תחושותיו ומסריו של הפעוט, והופכים את המסמך המנהלי לתיק ראיות אנושי שמחייב אותנו להקשיב.</p>
           <p><strong>מיפוי השפעות אינדיבידואליות:</strong> הטופס מפרט את נסיבות המקרה, דרכי הפגיעה וההשלכות הבריאותיות והנפשיות הייחודיות לכל ילד, ובכך ממחיש את עומק הטראומה וממדיה.</p>`
     },
+    presentationTitle: { en: `Final Presentation`, he: `הגשת פרויקט הגמר` },
     guideTitle:   { en: `Grow in Safe Hands`, he: `לגדול בידיים בטוחות` },
     guideIntro:   { en: `"Grow in Safe Hands" is the content arm of the Orca project: a professional yet accessible guide for every parent and caregiver, helping them recognize distress signs in time, understand child development, and know how to act. Sized at A5, it is compact enough to carry anywhere and gives scientific knowledge in simple, practical language.`,
                     he: `"לגדול בידיים בטוחות" הוא ליבת התוכן של פרויקט Orca — מדריך כיס מקצועי ונגיש, המעניק לכל הורה (ולכל איש/אשת צוות בגיל הרך) כלים מבוססי־מחקר להבין את עולמו הפנימי של הילד, לזהות מצוקה בזמן, ולפעול להגנתו. הספר בנוי בפורמט A5 קומפקטי שניתן לשאת בכל מקום, ומעביר ידע מדעי ומשפטי מורכב בשפה פשוטה, אמפתית ומעשית.` },
