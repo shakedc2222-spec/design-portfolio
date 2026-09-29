@@ -681,6 +681,29 @@ img {
   }
 }
 
+.presentation-gallery {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+
+.presentation-gallery .cs-image {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .presentation-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .presentation-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
 .testimony-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
